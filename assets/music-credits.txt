@@ -1,0 +1,26 @@
+薪火入西南 — 配乐来源与使用说明
+
+"Hero Down" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+https://creativecommons.org/licenses/by/4.0/
+
+作者曲目页面：
+https://www.incompetech.com/music/royalty-free/index.html?isrc=USUAN1100880
+作者提供的原始录音：
+https://incompetech.com/music/royalty-free/mp3-royaltyfree/Hero%20Down.mp3
+ISRC: USUAN1100880
+核对日期：2026-10-20
+
+本项目的改动：
+从原曲 02:54 起截取 39.5 秒；添加 2.5 秒淡入和 4.5 秒淡出；
+转为 192 kbps MP3，网页播放音量设为 32%。
+曲目用于历史主题成果展示，不是历史现场录音或传统中国革命歌曲。
+使用不表示作曲者为本作品、比赛或作品观点背书。
+
+参赛提交时：
+请保留以上曲名、作者、来源、许可证链接和修改说明。
+如果另行录屏或导出视频，请在片尾或随附作品说明中一并署名。
+CC BY 4.0 允许复制、改编和商业使用，但要求适当署名、提供许可链接、
+标明修改，且不得对许可授予的自由另加法律或技术限制。
+许可不等同于“无版权”，也不保证绝无第三方争议。
+比赛是否允许第三方授权音乐，仍以该比赛章程为准；不能将本配乐申报为团队原创。
