@@ -1,0 +1,9 @@
+背景局部编辑：OpenAI 内置图像编辑工具，2026-10-22。
+输入：narrative-southwest.webp，原有AI生成艺术场景。
+操作：仅移除右上方固定飞机，保留其余山川、建筑、云雾、行李与手稿；用于独立飞行动画的背景。
+关键提示：remove ONLY the single small static airplane in the upper-right sky near x=1170,y=150; fill with adjacent warm cloudy sky; preserve all other composition and details; no new UI, text, map borders.
+原生成文件：exec-6ad29251-3dcc-4c9c-8a59-87251882c1e5.png
+动态飞机复用项目已有 war-aircraft-alpha.png；落弹、火光、烟尘与碎屑由网页程序绘制，为艺术化叙事特效，不作为历史影像。
+
+完整生成提示词（内置图像编辑工具）：
+Use case: precise-object-edit. This existing 1330 x 1182 painterly historical landscape is the edit target for a working website. Make ONE extremely local edit: remove ONLY the single small static airplane in the upper-right sky near x=1170,y=150, filling its silhouette with the same adjacent warm cloudy sky. Preserve the other two small airplanes nearer the top-middle left, every mountain, every cloud outside that tiny removal region, all architectural details, exact composition, sepia/charcoal palette, luggage/manuscripts at lower left, image proportions and lighting. No new objects, no new aircraft, no new UI, text, arrows, map outlines or borders. This is a clean background plate for a separately animated airplane, not a redesign. Return the full image.

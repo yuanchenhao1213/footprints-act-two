@@ -1,0 +1,13 @@
+高清飞机与无飞机背景（2026-10-22）
+使用工具：OpenAI 内置图像生成／编辑工具。
+输入：项目已有的 narrative-southwest-airraid.webp 与 war-aircraft-alpha.png，均为已有艺术素材。
+输出：narrative-southwest-clear-sky.webp、cinematic-aircraft-hd.webp。
+人工整合：保留原场景布局；移除所有固定飞机；飞机按用户标注弧线飞行、抬头、缩小并从顶部离场；使用独立高清图片图层，烟尘保持轻量绘制。
+原始生成文件：exec-51ae7d1a-5995-407c-acb7-f26c572c64b4.png；exec-2f9b1cf3-d8fd-4214-b5d9-81410a63ebd4.png。
+照片和史料模块不受本次艺术素材编辑影响。
+
+背景完整提示词：
+Use case: precise-object-edit. Edit this full existing 1330x1182 painterly historical landscape. Remove ONLY the remaining two tiny overlapping stationary airplanes near x=610,y=184 in the upper-middle-left sky. Fill their silhouettes with matching adjacent warm clouds and sky. The upper-right airplane has already been removed; do not add any airplanes anywhere. Preserve every mountain, all clouds outside the tiny deletion region, buildings, luggage, manuscripts, lighting, colors, image dimensions and composition. Do not redesign, sharpen, relight, move objects, add words, UI, borders or map shapes. Return the same complete landscape with no airplanes at all.
+
+飞机完整提示词：
+Use case: historical-scene. Asset type: high-resolution transparent airplane sprite for cinematic animation on a sepia historical landscape website. Reference image is a rough dark aircraft sprite; rebuild it as a much clearer, richly detailed, realistic 1930s twin-engine propeller aircraft, generic without insignia or readable markings. IMPORTANT orientation: aircraft nose points LEFT, tail to RIGHT, long wings extending diagonally toward the viewer, seen in a shallow front three-quarter side view from slightly below. Entire intact aircraft, no crop, occupies about 85% of a wide 1536x768 canvas with modest transparent padding. Sharp fuselage silhouette, distinct cockpit glazing, clear metal panels and rivets, readable two engine nacelles, nuanced charcoal and aged olive-brown metal, warm sunset rim light matching a sepia mountain landscape, photographic fine detail, restrained contrast. Body and wings must be tack sharp; only propeller discs may have soft motion blur. Transparent alpha background, no sky, ground, smoke, clouds, fire, bombs, shadows on a surface, text, borders or watermark. One airplane only.
