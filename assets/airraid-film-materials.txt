@@ -1,0 +1,35 @@
+西南联大远山空袭 · 素材生成记录
+日期：2026-11-05
+方式：内置 image_gen，透明背景输出。
+项目资源：assets/valley-airburst-cinematic.webp
+源码资源：vue-project/public/assets/valley-airburst-cinematic.webp
+原始输出：C:/Users/辰昊/.codex/generated_images/01a130ac-b6f9-7f00-aea8-dccae027a739/exec-960a7f26-7709-44cb-8355-4805fb59f3c2.png
+技术处理：3 列 × 2 行纹理图集，缩放到 768 × 512 并保留透明通道；网页按弹着时刻驱动碎土、烟团扩张、偏移与消散。上排烟团在离屏 Canvas 中施加密度色调，下排扬尘保留较浅色调。
+
+最终提示词：
+Create a production VFX sprite atlas, six separate photorealistic explosion-dust/smoke cloud components, evenly arranged in an invisible 3-column 2-row grid on genuine transparent alpha. Canvas landscape 3:2 aspect. Every tile is isolated with 10% fully transparent empty padding, no overlap between tiles, no lettering or outlines or grid. All six are fragments of dry earth smoke after a small ground detonation in a distant rocky Chinese valley in a 1930s film. TOP ROW: three differently shaped dense asymmetrical charcoal-taupe and warm brown smoke billows, volumetric folds and turbulent lobes, illuminated softly from upper right behind the cloud. BOTTOM ROW: three differently shaped paler dry ochre dust billows, lighter and more translucent at edges, irregular ragged particulate wisps. Each cloud looks like an irregular rolling mass, often stretched diagonally; zero perfect spheres, zero smooth ovals. Dense cores hold intricate micro-eddies and midtone contrast, but edges become wispy and semi-transparent gradually. Light from upper right, soft warm backlighting at edges, cool warm-gray shadows, restrained antique earth pigment colors. Simulation rendered to photographic film visual effects standard, real density, scale of ten meters each. No environment, ground plane, plane, fires, flame, glow, flare, solid background, white/black matte, checkerboard, text or watermark. Isolated true transparent PNG sprite sheet ready to composite over a landscape.
+
+2026-11-05 · 机群与多处战火更新
+实现资源
+- narrative-battle-landscape.webp，参考批准图恢复的干净山谷背景。
+- aircraft-formation-leader.webp，近景侧视领机透明素材。
+- aircraft-distant-quarter.webp，复用远景飞机。
+- battle-ground-fire.webp，四格火焰纹理，动态交叉淡化。
+- valley-airburst-cinematic.webp，烟尘体积纹理。
+实现逻辑为飞机连续平飞、多处弹着错时起爆、高空炮烟膨胀漂移、山间分组曳光与地面火光，场景关闭或聚焦时暂停。
+
+图像工具为内置 image_gen。
+背景原始输出
+C:/Users/辰昊/.codex/generated_images/01a130ac-b6f9-7f00-aea8-dccae027a739/exec-24fa8f15-4602-4f22-b012-6c4fdb08a993.png
+火焰原始输出
+C:/Users/辰昊/.codex/generated_images/01a130ac-b6f9-7f00-aea8-dccae027a739/exec-17fad361-8c6a-443d-8870-2c3cfe1400c9.png
+
+背景最终提示词
+Precise image cleanup for an animated website. Input is the approved complete UI screenshot. Output a CLEAN PHOTOGRAPHIC BACKGROUND PLATE, exactly same full-frame landscape aspect 1505:1045 and same camera/composition, so interactive HTML UI and dynamic VFX can be composited back on top.
+Preserve every stationary landscape feature and its exact location: broad layered mountain valley in upper left and center, dark silhouetted middle ridges, distant city terraces at upper right, Shanghai waterfront at middle right, Changsha town mid lower right, Kunming buildings lower center, old luggage and papers at lower left, dark foliage at lower edges, atmospheric grey dust and gold sunlight in the sky. Preserve the weathered film color grade.
+REMOVE all interface text, circles, nodes, gold connection curves, invitation callout boxes, left guide lines/numbers/title, header/footer text and rules. Replace black masthead bar at very top with continuous dark cloud and black footer with continuous dark foreground.
+REMOVE EVERY temporary battle element from screenshot: all aircraft, floating dark aerial flak puffs, all rising thick explosion columns, every orange detonation fire and short tracer line. Replace these with coherent undamaged mountains/sky matching their adjacent terrain. Keep the preexisting low white valley mist and warm natural town lights. The central LEFT battle valley under where the huge plume was should show empty bare ridges and hillside ready for a dynamic grounded explosion to be layered later.
+No letters anywhere, no graphic UI symbols, no airplanes, no missiles, no rising explosion columns, no gunfire, no orange flare. Do not reframe, invent architecture, change foreground luggage, add a building, rearrange towns, or zoom. This is the identical scene at a quiet moment before battle with all moving and interface layers removed. High quality photographic textures, haze depth and muted film grain. Produce the final clean plate only.
+
+火焰最终提示词
+A 2 by 2 sprite sheet of four different isolated short ground-fire patches for compositing into a photoreal historical war film. Genuine transparent alpha background. Four square cells separated by ample empty transparent padding, no visible grid or borders. Each fire patch is broad and low, width twice its height, the flames anchored along its lower quarter. SMALL irregular tongues of orange fire, torn dancing curls of incandescent gases, warm orange and deep amber with small cream yellow cores, soot irregularity and dark holes between tongues. Each of the four cells represents a different moment of the same burning patch, same scale and camera. Dense emissive flame tendrils with photographic textures and wispy semi-transparent edges, realistic fire optical detail, NOT an illustration. The flame shape is asymmetrical, broken and granular rather than six repeated spikes. Light natural smoke only immediately attached to the flame, no tall smoke plume. Pure cutout VFX element, no ground, landscape, debris, charcoal bed, black rectangle, shadows, people, letters or watermark. A 35mm cinema film effect of small flames on a distant rocky ridge, physical optical fire with restrained brightness. No giant fireballs, fireworks, blue flames, neon glow or graphic triangles. Output only the four-cell transparent sprite sheet.

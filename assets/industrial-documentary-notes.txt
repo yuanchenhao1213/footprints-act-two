@@ -1,0 +1,15 @@
+三线建设工业纪实版 · 素材与动画记录
+日期：2026-11-05
+主体背景：assets/industrial-documentary-landscape.webp，1672×941。
+素材由内置 image_gen 根据用户批准的界面清理生成，保留了三个地区的照片式构图和铁路位置，删除了UI文字、移动列车、橙色引导线及右上角小洞口。HTML文字、节点、铁路线、列车、蒸汽独立渲染。
+参考图：C:/Users/辰昊/AppData/Local/Temp/codex-clipboard-67a779d9-ddfb-466f-86a4-4acee5709127.png
+背景原始输出：C:/Users/辰昊/.codex/generated_images/01a130ac-b6f9-7f00-aea8-dccae027a739/exec-c0215b36-8372-463e-8d7c-8a27f93af321.png
+列车于2026-11-05改为Three.js实时立体几何模型，不再使用平面列车贴图。蒸汽机车、煤水车和两节货车独立定位和转向，轮组、曲柄与连杆按实际行程转动；货车转向架跟随弯道。正交相机将轮轨接触点投回背景轨道，车厢在山后和前景洞口分层遮挡。机车使用旧铁、煤灰与木板程序材质、环境反射、漫射光及接触阴影。蒸汽使用项目已有透明烟尘图集的裁切，按世界坐标排放、漂移、消散。普通模式行驶约5.6秒，到站直接展示档案。
+侧栏使用现有历史劳动照片 assets/image11.jpeg，来源说明延续项目档案资料。
+
+背景生成最终提示词
+Precise background preparation of this approved desktop exhibition UI. Return exactly the same full composition and aspect ratio 1672:941, no reframing, no perspective changes, no moving existing steel rails or front bridge.
+Make a clean static background plate for animated UI compositing. Remove ALL overlaid text/Chinese characters, station plates, numbers, circular anchor markers and leader lines. Remove the orange highlighted route everywhere, exposing realistic dull steel rails on the physical tracks. Remove the ONLY foreground moving steam locomotive and its attached freight wagons currently at the top-left Northeast railway and the smoke originating from that locomotive, reconstructing the empty curved rails on the exact same alignment. Keep static parked rail wagons at far left of the Northeast factory yard as original small scenery, not on active curving track. Keep chimney steam.
+Remove all sidebar text, the sidebar monochrome inset photo and button, leaving the warm ivory panel and its subtle grey bridge drawing along its bottom. Remove all top/bottom masthead/footer lettering and separators leaving their solid charcoal bars. The photos of the three scenes, print edges, and documentary colors stay absolutely identical.
+ONE USER CORRECTION: at the extreme right edge where the upper coastal railway meets the mountain at x1655 y404 there is a tiny round black second tunnel entrance. ERASE THAT SMALL BLACK HOLE ONLY and reconstruct continuous natural rocky hillside at that point. The upper track should simply curve out of view BEHIND the mountain and beyond the right frame without a visible new portal. Preserve the MUCH LARGER FRONT STONE TUNNEL at x1520 y655 completely, including the black entrance, railbed and original foreground steel bridge coming out of it.
+All other factory buildings, Northeast winter snowy palette, East Coast harbour/water, Panzhihua warm rust-brown rocky landscape, printed photographic collage borders, railway bridge, source camera and detail remain untouched. No words or overlay UI, no orange guide line, no moving train, no upper/right small tunnel hole. Retain the large front stone tunnel. Deliver only the clean background image.

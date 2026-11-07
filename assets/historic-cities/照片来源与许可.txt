@@ -1,0 +1,23 @@
+城市聚焦照片来源与使用记录（2026-10-22）
+
+北平：前门街景，1930年代（依来源描述；页面2009年日期不是摄影年代）。
+文件：beiping-1930s.jpg。来源：https://commons.wikimedia.org/wiki/File:Peking_1930s.jpg
+页面所列来源：秦风老照片馆，广西师大出版社；原摄影者未确认。
+页面标注PD-China，同时提示美国版权状态须另行核对，不据此作全球无版权保证。
+处理：等比例缩小至1280像素宽，JPEG压缩；没有裁剪、重新绘制或改变城市内容。
+
+上海：外滩全景，1930年。文件：shanghai-1930.jpg。
+来源：https://commons.wikimedia.org/wiki/File:1930_Shanghai.jpg
+页面署名US Signal Corps，页面标注PD-China并附跨法域状态提示。
+采用页面提供的1280像素预览，未裁剪、调色或生成画面。
+
+长沙：A street in Changsha，馆藏估年1900—1930，并非已证实的1938年街景。
+文件：changsha-1900-1930.jpg，保留下载原图完整内容与字节，不裁剪、不调色。
+来源：University of Bristol — Historical Photographs of China，Banister Family，Ba04-44。
+馆藏页：https://hpcbristol.net/visual/ba04-44
+许可页：https://hpcbristol.net/re-use
+平台许可：CC BY-NC-ND 4.0（署名、非商业、禁止演绎）；网页按完整原图展示，署名见照片下方。
+许可证：https://creativecommons.org/licenses/by-nc-nd/4.0/
+非商业教育展示按平台条款使用；商业再利用须另取得许可。
+
+照片用于城市历史风貌展示，不代表迁徙路线的精确地理关系，亦不冒充人物亲历现场。
